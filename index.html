@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+	<head>
+		<meta charset = "utf-8">
+		<title>task 2</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+  
+	<body>
+		
+		<header>
+			<div class="title">web</div>
+		</header>
+		
+		<nav class="menu">
+			<ul>
+				<li><a href="https://facebook.com">facebook</a></li>
+				<li><a href="https://vk.com">vk</a></li>
+				<li><a href="https://github.com">github</a></li>
+				<li><a href="https://wikipedia.com">wikipedia</a></li>
+			</ul>
+		</nav>		
+		
+		
+		<div>
+			<ol>
+				<li> <a href="http://example.com/"> task 1 </a></li>
+				<li> <a href="https://example.com/"> task 2 </a></li>
+				<li> <a href="ftp://moodle.kubsu.ru/mod/assign/view.php"> task 3 </a></li>
+				<li> <a href="ftp://user:password@moodle.kubsu.ru/mod/assign/view.php"> task 4 </a></li>
+				<li> <a href="https://example.com#heel"> task 5 </a> </li>
+				<li> <a href="#task6"> task 6 </a>
+					 <a id="task6"></a> </li>
+				<li> <a href="https://shop.com/catalog/smartphone?page=1&perpage=20"> task 7 </a></li>
+				<li>
+					<ul class="breadcrumb">
+						<li><a href="#" title="WEB"> 1 </a></li>
+						<li><a href="#" title="WEB1"> 2 </a></li>
+						<li><a href="#" title="WEB2"> 3 </a></li>
+						<li> task 8 </li>
+					</ul>
+				</li>
+				<li>
+					<ul>
+						<li><a> task9_1 </a></li>
+						<li><a href="#"> task9_2 </a></li>
+						<li><a href="#"> task9_3 </a></li>
+					</ul>
+				</li>
+				<li><a href="#!"> task 10 </a></li>
+				<li><a href="https://example.com/" rel="nofollow"> task 11 </a></li>
+				<li><a href="https://example.com/"><!--noindex--> task 12 <!--/noindex--></a></li>
+				<li> task 13 <a href="#!"> windows 10 </a></li>
+				<li><a href="#" target="_blank"><img src="pic1.jpg" alt="task14" /></a></li>
+				<li><img src="pic2.png" usemap="#box" alt="task15" />
+					<map name="box">
+						<area shape="rect" coords="0,0,75,75" href="#" title="1" alt="1">
+						<area shape="rect" coords="0,75,75,150" href="#" title="2" alt="1">
+						<area shape="rect" coords="75,0,150,75" href="#" title="3" alt="1">
+						<area shape="rect" coords="75,75,150,150" href="#" title="4" alt="1">
+					</map>
+				</li>
+				<li><a href="pic2.png"> task 16 </a>
+				<li><a href="about/pic2.png"> task 17 </a></li>
+				<li><a href="../pic1.jpg"> task 18 </a></li>
+				<li><a href="../../something.html"> task 19 </a></li>
+				<li><a href="/"> task 20 </a></li>
+				<li><a href="/about"> task 21 </a></li>
+			</ol>
+		</div>
+		
+	
+		<table>
+			<tr><th>Столбец 1</th><th>Столбец 2</th><th>Столбец 3</th></tr>
+			<tr><td>Ячейка 11</td><td>Ячейка 12</td><td>Ячейка 13</td></tr>
+			<tr><td>Ячейка 21</td><td>Ячейка 22</td><td>Ячейка 23</td></tr>
+			<tr><td>Ячейка 31</td><td>Ячейка 32</td><td>Ячейка 33</td></tr>
+			<tr><td>Ячейка 41</td><td>Ячейка 42</td><td>Ячейка 43</td></tr>
+			<tr><td>Ячейка 51</td><td>Ячейка 52</td><td>Ячейка 53</td></tr>
+		</table>     
+				
+		<h3>Форма</h3>
+		
+		<form action="/" method="POST">
+
+		  <label>
+			Имя<br>
+			<input value="Иван" />
+		  </label><br>
+
+		  <label>
+			e-mail<br>
+			<input value="email@inbox.ru"
+			  type="email">
+		  </label><br>
+
+		  <label>
+			Дата рождения<br>
+			<input value="2003-05-14"
+			  type="date">
+		  </label><br>
+
+		 Пол<br>
+		  <label><input type="radio" name="radio-group-1">
+			Муж</label>
+		  <label><input type="radio" name="radio-group-1">
+			Жен</label><br />
+
+		Количество конечностей<br>
+		  <label><input type="radio" name="radio-group-2">
+			1</label><br>
+		  <label><input type="radio" name="radio-group-2">
+			2</label><br>
+		  <label><input type="radio" name="radio-group-2">
+			3</label><br>
+		  <label><input type="radio" name="radio-group-2">
+			4</label><br>
+		  <label>
+
+		Cверхспособности:<br>
+		  <select name="field-name-3">
+			 <option value="Значение1">Бессмертие</option>
+			 <option value="Значение2">Прохождение сквозь стены</option>
+			 <option value="Значение3">Левитация </option>
+		  </select>
+		  </label><br>
+
+		  <label>
+			Биография<br/>
+			<textarea></textarea>
+		  </label><br>
+
+		  <label><input type="checkbox">C контрактом ознакомлен
+		  </label><br>
+		  
+		  <input type="submit" value="Отправить" />
+		</form>
+		
+		<footer>
+			<p class="f">© Ivan Pozdnyakov 2021</p>
+		</footer>
+		
+	</body>
+</html>
