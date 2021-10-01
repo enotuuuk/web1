@@ -48,3 +48,9 @@ footer{
 footer p{
 	font-size: 16px;
 }
+.even{
+	background:#00FF7F;
+}
+.notEven{
+	background:#98FB98:
+}
