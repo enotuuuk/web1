@@ -4,8 +4,22 @@ body{
 
 header{
 	width: 100%;
-	background: #70CFD2 url(image.png) no-repeat 5% 50%;
+	background: #bb5ae8 url(image.png) no-repeat 5% 50%;
 	height: 110px;	
+}
+
+.test{
+	width: 100%;
+	text-align: center;
+	
+}
+
+.center{
+	display: inline-block;
+}
+
+li{
+	text-align: left;
 }
 
 .title{
@@ -15,31 +29,41 @@ header{
 }
 
 .menu ul {
-	background: #CCFFAE;
 	overflow: hidden;
 	padding: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .menu li{
 	float: left;
-	color: #CCFFAE;
+	color: #e6ecf0;
 }
 
 .menu a {
 	display: block;
 	padding: 1em;
-	border-right: 1px solid #ADC0CE;
-	background: #CCFFAE;
-	color: #000000;
+	border: 1px solid #ADC0CE;
+	background: #e6ecf0;
+	color: #29838C;
+}
+
+.colorrr {
+  background:pink;
+}
+table{
+  background: #ADC0CE;
 }
 
 table, th, td {
     border: 1px solid black;
+	margin: 10px auto;
 }
 
 footer{
 	width: 100%;
-	background: #70CFD2;
+	background: #bb5ae8;
 	height: 40px;
 	padding: 20px 0;
 	margin: 10px 0 0 0;
@@ -47,10 +71,4 @@ footer{
 
 footer p{
 	font-size: 16px;
-}
-.even{
-	background:#00FF7F;
-}
-.notEven{
-	background:#98FB98;
 }
