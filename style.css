@@ -4,66 +4,79 @@ body{
 
 header{
 	width: 100%;
-	background: #bb5ae8 url(image.png) no-repeat 5% 50%;
-	height: 110px;	
-}
-
-.test{
-	width: 100%;
-	text-align: center;
-	
-}
-
-.center{
-	display: inline-block;
-}
-
-li{
-	text-align: left;
+	background: #CD853F url(logo.jpg) no-repeat 10% 50%;
+	height: 110px;
 }
 
 .title{
-	font-size: 36px;
+	font-size: 40px;
 	padding-top: 30px;
 	text-align: center;
 }
 
+
+.menu {
+	text-align: center;
+}
+
 .menu ul {
+	background: #FFE4B5;
 	overflow: hidden;
 	padding: 0;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: inline-table;
 }
+
 
 .menu li{
 	float: left;
-	color: #e6ecf0;
+	color: #8B4513;
+	display: inline;
 }
+
 
 .menu a {
 	display: block;
+	color: #000000;
 	padding: 1em;
-	border: 1px solid #ADC0CE;
-	background: #e6ecf0;
-	color: #29838C;
+	border-right: 1px solid #8B4513;
+	background: #FFE4B5;
 }
 
-.colorrr {
-  background:pink;
+h1 {
+	text-align: center;
 }
-table{
-  background: #ADC0CE;
+
+.link-list {
+	 display: block;
+	 margin: auto;
+	 width: 30%;
 }
+
+
+.table-test, .form {
+	display: block;
+	margin: auto;
+	width: 20%;
+}
+
 
 table, th, td {
     border: 1px solid black;
-	margin: 10px auto;
+		height: 50px;
+}
+
+.even {
+	background: #808000;
+}
+
+
+.notEven {
+	background: #6B8E23;
 }
 
 footer{
 	width: 100%;
-	background: #bb5ae8;
+	background: #CD853F;
 	height: 40px;
 	padding: 20px 0;
 	margin: 10px 0 0 0;
