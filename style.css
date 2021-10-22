@@ -4,44 +4,57 @@ body{
 
 header{
 	width: 100%;
-	background: #CD853F url(logo.jpg) no-repeat 10% 50%;
-	height: 110px;
+	background: #bb5ae8 url(image.png) no-repeat 5% 50%;
+	height: 110px;	
+}
+
+.test{
+	width: 100%;
+	text-align: center;
+	
+}
+
+.center{
+	display: inline-block;
+}
+
+li{
+	text-align: left;
 }
 
 .title{
-	font-size: 40px;
+	font-size: 36px;
 	padding-top: 30px;
 	text-align: center;
 }
 
-
-.menu {
-	text-align: center;
-}
-
 .menu ul {
-	background: #FFE4B5;
 	overflow: hidden;
 	padding: 0;
-	display: inline-table;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 
 .menu li{
 	float: left;
-	color: #8B4513;
-	display: inline;
+	color: #e6ecf0;
 }
-
 
 .menu a {
 	display: block;
-	color: #000000;
 	padding: 1em;
-	border-right: 1px solid #8B4513;
-	background: #FFE4B5;
+	border: 1px solid #ADC0CE;
+	background: #e6ecf0;
+	color: #29838C;
 }
 
+.colorrr {
+  background:pink;
+}
+table{
+  background: #ADC0CE;
+}
 h1 {
 	text-align: center;
 }
@@ -65,18 +78,14 @@ table, th, td {
 		height: 50px;
 }
 
-.even {
-	background: #808000;
-}
-
-
-.notEven {
-	background: #6B8E23;
+table, th, td {
+    border: 1px solid black;
+	margin: 10px auto;
 }
 
 footer{
 	width: 100%;
-	background: #CD853F;
+	background: #bb5ae8;
 	height: 40px;
 	padding: 20px 0;
 	margin: 10px 0 0 0;
